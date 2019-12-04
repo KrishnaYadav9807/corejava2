@@ -16,7 +16,7 @@ public class PalindromString {
 	}
 
 	public static void main(String[] args) {
-		String ckeckPalindrom = PalindromString.toCkeckPalindrom("12121");
+		String ckeckPalindrom = PalindromString.toCkeckPalindrom("1212112");
 		System.out.println(ckeckPalindrom);
 	}
 
