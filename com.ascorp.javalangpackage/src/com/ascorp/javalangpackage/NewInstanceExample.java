@@ -5,7 +5,7 @@ public class NewInstanceExample {
 
 	public static void main(String[] args) {
 		try {
-			Class cls = Class.forName("NewInstanceExample");
+			Class<?> cls = Class.forName("NewInstanceExample");
 			NewInstanceExample obj = (NewInstanceExample) cls.newInstance();
 			System.out.println(obj.name);
 		} catch (ClassNotFoundException e) {
